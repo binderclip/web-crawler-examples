@@ -8,6 +8,10 @@ scrapy startproject myproject
 
 # crawl and save to json
 scrapy crawl myspider -o out.json
+
+# scrapy shell
+scrapy shell 'https://example.com'
+# >>> response.xxx
 ```
 
 ## refs
