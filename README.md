@@ -1,5 +1,15 @@
 # web-crawler-examples
 
+## commands
+
+```shell
+# start project
+scrapy startproject myproject
+
+# crawl and save to json
+scrapy crawl myspider -o out.json
+```
+
 ## refs
 
 - [lining0806/PythonSpiderNotes: Python入门网络爬虫之精华版](https://github.com/lining0806/PythonSpiderNotes)
